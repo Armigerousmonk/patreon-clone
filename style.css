@@ -1,7 +1,8 @@
 .logo {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 10px;
 }
-#nav-mobile .li{
-    color: black;
-} 
+body ul .dropdown-content {
+    color:none ;
+}
+
