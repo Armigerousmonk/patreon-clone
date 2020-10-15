@@ -11,3 +11,18 @@
      
     
 }
+#topbarsearch .input-field .autocomplete { 
+    margin-right: 100px;
+    
+    width: 120px ;
+    }    
+    .btn {
+        background-color: #ff3541;
+        border-radius: 30px;
+    }
+  .btn:hover {
+      background-color: white;
+      border: 2px solid red;
+      color: red !important;
+      text-align: center;
+  }
