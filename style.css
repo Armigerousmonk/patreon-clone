@@ -19,10 +19,29 @@
     .btn {
         background-color: #ff3541;
         border-radius: 30px;
+        border: 2px solid red;
     }
   .btn:hover {
       background-color: white;
-      border: 2px solid red;
+      
       color: red !important;
       text-align: center;
+  }
+
+  #products {
+      width: 300px !important;
+  }
+  
+  .landing {
+      background-color: black;
+      color: white;
+      height: 300px;
+  }
+  .leftbox {
+      display: flex;
+      border: 3px solid white;
+      width: 50%;
+      height: 100%;
+      text-align: left;
+      flex-direction: column;
   }
