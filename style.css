@@ -2,46 +2,117 @@
     margin-top: 20px;
     margin-left: 10px;
 }
+nav {
+    border-bottom: 2px solid lightgray;
+}
 .nav-wrapper {
     font-family: 'Roboto', sans-serif;
 }
 
 .dropdown-content li>a>i {
     margin: 0 0px 0 0!important;
-     
     
 }
+
 #topbarsearch .input-field .autocomplete { 
     margin-right: 100px;
     
     width: 120px ;
-    }    
-    .btn {
-        background-color: #ff3541;
-        border-radius: 30px;
-        border: 2px solid red;
-    }
-  .btn:hover {
-      background-color: white;
-      
-      color: red !important;
-      text-align: center;
-  }
+}    
+.fixbtn {
+    background-color: #ff3541;
+    border-radius: 30px;
+    border: 2px solid red;
+}
+.fixbtn:hover {
+    background-color: white;
+    color: red !important;
+    text-align: center;
+}
 
-  #products {
-      width: 300px !important;
-  }
-  
-  .landing {
-      background-color: black;
-      color: white;
-      height: 300px;
-  }
-  .leftbox {
-      display: flex;
-      border: 3px solid white;
-      width: 50%;
-      height: 100%;
-      text-align: left;
-      flex-direction: column;
-  }
+#products {
+    width: 300px !important;
+}
+
+.landing {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #141518;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+.leftbox {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.leftbox h1 {
+    
+    font-weight: 700;
+
+}
+.leftbox p {
+    font-size: 17px;
+
+}
+.rightbox {
+    width: 50%;
+    margin: 20px 20px 20px 20px;
+}
+.fixbtn2 {
+    background-color: #ff3541;
+    border-radius: 30px;
+    font-weight: 600;
+    
+}
+.fixtestimonial {
+    padding: 40px;
+    
+}
+.leftcard {
+    text-align: center;
+}
+#company {
+    margin-top: 30px;
+    font-weight: 700;
+}
+#title {
+    position: relative;
+    bottom: 20px;
+    font-weight: 500;
+}
+
+.testimonial {
+    
+    font-weight: 700;
+    font-size: 34px;
+    
+}
+
+.midlle-box {
+    background-color: #141518;
+    height: 600px;
+    
+}
+.section1 {
+    margin-top: 70px;
+    
+}
+
+.section1 h3 {
+    font-weight: 700;
+}
+.section1 p {
+    font-size: 18px;
+}
+.section2 .card{
+    background-color: #141518;
+
+}
