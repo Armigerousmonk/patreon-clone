@@ -122,3 +122,43 @@ nav {
     position: relative;
     bottom: 20px;
 }
+
+.section4 .row .fixsection4 p {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center ;
+}
+.section4 .row .fixsection4 .image {
+    box-sizing: border-box;
+    opacity: 1 !important;
+    display: block !important;
+    height: auto;
+    transition: .5s ease!important;
+    backface-visibility: hidden!important;
+   
+}
+.section4 .row .fixsection4 .middle {
+    box-sizing: border-box;
+    transition: .5s ease !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+
+}
+.section4 .row .fixsection4:hover .image {
+    opacity: 0.3 !important;
+}
+.section4 .row .fixsection4:hover .middle {
+    opacity: 1 !important;
+}
+.section4 .row .fixsection4 .middle .text   {
+    background-color: #4CAF50;
+    color: red;
+    font-size: 16px;
+    padding: 16px 32px;
+    border: 3px solid red;
+}
