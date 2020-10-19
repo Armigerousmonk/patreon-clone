@@ -235,6 +235,13 @@ nav {
     border-radius: 5px;
 
 }
+
+.social {
+    margin-top: 100px;
+}
+.social-btn {
+    background-color: #5b5c5e;
+}
   @media screen and (max-width: 768px) {
     .column {
         flex: 33.3%;
