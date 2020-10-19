@@ -16,7 +16,6 @@ nav {
 
 #topbarsearch .input-field .autocomplete { 
     margin-right: 100px;
-    
     width: 120px ;
 }    
 .fixbtn {
@@ -35,7 +34,6 @@ nav {
 }
 
 .landing {
-    
     display: flex;
     flex-direction: row;
     background-color: #141518;
@@ -112,6 +110,8 @@ nav {
 }
 .section1 p {
     font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
 }
 .section2 .card{
     background-color: #141518;
@@ -190,7 +190,7 @@ nav {
     padding: 8px 16px !important;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .column {
         flex: 33.3%;
         max-width: 33.3%;
