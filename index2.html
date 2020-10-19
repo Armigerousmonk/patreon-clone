@@ -18,11 +18,11 @@
     <body>
         
         <!--Section: Navbar-->   
-            <nav class="nav-wrapper white col s12 m6 z-depth-0 ">
+            <nav class="navigation-bar nav-wrapper white z-depth-0 ">
                 <div class="left-nav">
                     <img src="img/logo.jpg" alt="" class="logo left">
                     <a href="#" class="sidenav-trigger right show-on-large" data-target="mobile-links">
-                        <i class="material-icons hide-on-large-only grey-text right ">menu</i>
+                        <i class="menu material-icons hide-on-large-only grey-text left ">menu</i>
                     </a>
                     <ul id="nav-mobile" class="left-navbar left hide-on-med-and-down">
                         <li><a href="#" class="dropdown-trigger black-text" data-target="products">Products <i class="material-icons right">keyboard_arrow_down</i></a></li>
@@ -37,29 +37,30 @@
                         <li><a href="#"class="black-text">Pricing</a></li>
                         <li><a href="#" class="black-text" data-target="resources">Resources <i class="material-icons right">keyboard_arrow_down</i></a></li>
                         <li><a href="#"class="black-text">Starter kits</a></li>
-                        
+                        <!-- <li><a href="#" class=" black-text" >Log in </a></li>
+                        <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li> -->
                     </ul>
                 </div>
+
                     <!--Section: Right navigation-->
-                    <div class="right-nav">
-                        <ul id="nav-mobile" class="right ">
-                            <li class="row">
-                                <div class="col s12 m12">
-                                    <div class="row" id="topbarsearch">
-                                        <div class="input-field col s12">
-                                            <i class="material-icons prefix red-text">search</i>
-                                            <input type="text" placeholder="Find a Creator" id="autocomplete-input" class="autocomplete"
-                                            >
-                                            <!-- <label for="autocomplete-input">Autocomplete</label> -->
-                                        </div>
-                                    </div>
+
+
+                <div class="right-nav nav-wrapper hide-on-med-and-down">
+                    <ul id="nav-mobile" class="right ">
+                        <li>
+                            <div class="row" id="topbarsearch">
+                                <div class="input-field ">
+                                    <i class="search-btn material-icons prefix red-text">search</i>
+                                    <input type="text" placeholder="Find a Creator" id="autocomplete-input" class="autocomplete">
                                 </div>
-                            <li><a href="#" class=" black-text" >Log in </a></li>
-                            <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                        <!-- <li><i class="material-icons prefix red-text">search</i></li> -->
+                        <li><a href="#" class=" black-text" >Log in </a></li>
+                        <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li>
+                    </ul>
                 </div>
+                
             </nav>
             <ul id="products" class="dropdown-content z-depth-3">
                 <li><a href="#" class="black-text">Lite <p>Simple tools to set up recrurring support from your fans</p></a></li>
@@ -328,9 +329,6 @@
                                 <div class="copyright-footer">
                                     © Patreon
                                 </div>
-                            
-                                                      
-                            
                         </div>
                         <div class="footer-right">
                             <div class="row">
