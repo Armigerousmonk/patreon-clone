@@ -190,6 +190,33 @@ nav {
     padding: 8px 16px !important;
   }
 
+  .title2 {
+      font-weight: 700 !important;
+      margin-top: 10px;
+      
+  }
+
+.button {
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+
+.footer-h3 {
+    margin: 60px;
+}
+.footerbtn {
+    margin-bottom: 80px;
+}
+.bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-right {
+    flex: 50%;
+}
+.footer-left {
+    flex: 50%;
+}
   @media screen and (max-width: 768px) {
     .column {
         flex: 33.3%;
