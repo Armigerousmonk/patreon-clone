@@ -200,13 +200,18 @@ nav {
     margin-bottom: 100px;
     font-size: 16px;
 }
-
+.page-footer {
+    background-color: #141518 !important;
+    
+}
 .footer-h3 {
     margin: 60px;
 }
 .footerbtn {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+    
 }
+
 .bottom-footer {
     display: flex;
     flex-wrap: wrap;
@@ -216,6 +221,19 @@ nav {
 }
 .footer-left {
     flex: 50%;
+    
+}
+
+.footer-box {
+    font-weight: 700;
+    font-size: 21px;
+    border: 1px solid white;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
 }
   @media screen and (max-width: 768px) {
     .column {
