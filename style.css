@@ -30,7 +30,7 @@ nav {
     border: 2px solid red;
 }
 .fixbtn:hover {
-    background-color: white;
+    background-color: white !important;
     color: red !important;
     text-align: center;
 }

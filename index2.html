@@ -3,12 +3,15 @@
   <html>
     <head>
       <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!-- Compiled and minified CSS -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- Compiled and minified CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
+
       <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,49 +22,40 @@
         
         <!--Section: Navbar-->   
             <nav class="navigation-bar nav-wrapper white z-depth-0 ">
-                <div class="left-nav">
-                    <img src="img/logo.jpg" alt="" class="logo left">
-                    <a href="#" class="sidenav-trigger right show-on-large" data-target="mobile-links">
-                        <i class="menu material-icons hide-on-large-only grey-text left ">menu</i>
-                    </a>
-                    <ul id="nav-mobile" class="left-navbar left hide-on-med-and-down">
-                        <li><a href="#" class="dropdown-trigger black-text" data-target="products">Products <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#" class="dropdown-trigger black-text" data-target="for_creators">For creators <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#" class="black-text">Pricing</a></li>
-                        <li><a href="#" class="dropdown-trigger black-text" data-target="resources">Resources <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#" class="black-text">Starter kits</a></li>
-                    </ul>
-                    <ul class="sidenav" id="mobile-links">
-                        <li><a href="#" class="black-text" data-target="products">Products <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#" class=" black-text" data-target="for_creators">For creators <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#"class="black-text">Pricing</a></li>
-                        <li><a href="#" class="black-text" data-target="resources">Resources <i class="material-icons right">keyboard_arrow_down</i></a></li>
-                        <li><a href="#"class="black-text">Starter kits</a></li>
-                        <!-- <li><a href="#" class=" black-text" >Log in </a></li>
-                        <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li> -->
-                    </ul>
-                </div>
-
-                    <!--Section: Right navigation-->
-
-
-                <div class="right-nav nav-wrapper hide-on-med-and-down">
-                    <ul id="nav-mobile" class="right ">
-                        <li>
-                            <div class="row" id="topbarsearch">
-                                <div class="input-field ">
-                                    <i class="search-btn material-icons prefix red-text">search</i>
-                                    <input type="text" placeholder="Find a Creator" id="autocomplete-input" class="autocomplete">
-                                </div>
+                <img src="img/logo.jpg" alt="" class="logo left">
+                <a href="#" class="sidenav-trigger right show-on-large" data-target="mobile-links">
+                    <i class="menu material-icons hide-on-large-only grey-text left ">menu</i>
+                </a>
+                <ul class="left-navbar left hide-on-med-and-down">
+                    <li><a href="#" class="dropdown-trigger black-text" data-target="products">Products <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#" class="dropdown-trigger black-text" data-target="for_creators">For creators <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#" class="black-text">Pricing</a></li>
+                    <li><a href="#" class="dropdown-trigger black-text" data-target="resources">Resources <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#" class="black-text">Starter kits</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <div class="row" id="topbarsearch">
+                            <div class="input-field ">
+                                <i class="search-btn material-icons prefix red-text">search</i>
+                                <input type="text" placeholder="Find a Creator" id="autocomplete-input" class="autocomplete">
                             </div>
-                        </li>
-                        <!-- <li><i class="material-icons prefix red-text">search</i></li> -->
-                        <li><a href="#" class=" black-text" >Log in </a></li>
-                        <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li>
-                    </ul>
-                </div>
-                
+                        </div>
+                    </li>
+                    <li><a href="#" class=" black-text" >Log in </a></li>
+                    <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-links">
+                    <li><a href="#" class=" black-text" data-target="products">Products <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#" class="black-text" data-target="for_creators">For creators <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#"class="black-text">Pricing</a></li>
+                    <li><a href="#" class="black-text" data-target="resources">Resources <i class="material-icons right">keyboard_arrow_down</i></a></li>
+                    <li><a href="#"class="black-text">Starter kits</a></li>
+                    <li><a href="#" class=" black-text" >Log in </a></li>
+                    <li><a href="#" class="btn fixbtn white-text z-depth-0" >CREAT ON PATREON </a></li>
+                </ul>
             </nav>
+             
             <ul id="products" class="dropdown-content z-depth-3">
                 <li><a href="#" class="black-text">Lite <p>Simple tools to set up recrurring support from your fans</p></a></li>
                 <li><a href="#" class="black-text">Pro <p>All the tools to build and grow a thriving membership business</p></a></li>
